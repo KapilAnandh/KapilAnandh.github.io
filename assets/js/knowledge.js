@@ -210,8 +210,8 @@ PROJECTS:
 - Stratagraph Energy: AI log-quality grading (Textract, Rekognition, Bedrock Claude); ~8TB data lake with Titan embeddings in OpenSearch Serverless -> citation-backed RAG; Terraform, CI/CD, ISO 27001.
 - Perzona: multi-tenant NL2SQL analytics on Bedrock (Claude Sonnet 4.5), Lambda, CDK, DynamoDB; 40+ tenants; three-layer security (Guardrails + SELECT-only validator); CloudWatch + audit logs.
 
-HACKATHONS & EVENTS: AWS EBA Event — Perzona (AI/ML resource); AWS EBA Event — Blacksmith (AI/ML resource); DPI Event — Client Mystery Ops.
-MENTORING: Data Scraping Initiative (ongoing) — guiding and supporting junior AI/ML engineers with technical guidance for data scraping across sources, implementation approaches, troubleshooting and AI/ML requirements.
+AWS HACKATHONS: AWS EBA Event — Perzona (AI/ML resource); AWS EBA Event — Blacksmith (AI/ML resource); AWS DPI Event — Mystery Ops.
+MENTORING: Data Scrapping — guiding and supporting junior AI/ML engineers with technical guidance for data scrapping across sources, implementation approaches, troubleshooting and AI/ML requirements.
 EDUCATION: M.Tech, Data Science — Kumaraguru College of Technology (Sep 2023–Apr 2025). CGPA 8.73/10 (87.3%).
 CERTIFICATIONS: AWS Certified ML Engineer – Associate; AWS Partner – Generative AI on AWS; AWS Knowledge: AI-Driven Development Lifecycle (badge); AWS Partner: Generative AI Technical (badge); TensorFlow Developer Certificate; Claude Partner Badge (Claude Code, Anthropic); Claude with Amazon Bedrock; AI Fluency: Framework & Foundations; AI Fluency for Builders (CodePath x Anthropic); AI Capabilities and Limitations; Introduction to Agent Skills; Introduction to Subagents; Introduction to Claude Cowork; GenAI for Developers (Google Cloud); IELTS 7.5.`;
 
