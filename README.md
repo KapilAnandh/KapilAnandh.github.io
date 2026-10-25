@@ -5,7 +5,7 @@ Dark "inside the model" theme, scroll-driven animations, an interactive neural-n
 background, project case studies, and **Kappy** — a cute built-in chatbot that answers
 questions about Kapil.
 
-**Live site:** https://kapilanandh.github.io/Portfolio/
+**Live site:** https://kapilanandh.github.io/
 
 ## Tech
 

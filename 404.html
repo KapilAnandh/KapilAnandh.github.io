@@ -13,12 +13,10 @@
     a{display:inline-block;margin-top:18px;padding:12px 22px;border-radius:12px;background:linear-gradient(120deg,#8b5cf6,#22d3ee);color:#07080d;text-decoration:none;font-weight:600}
   </style>
   <script>
-    // On GitHub Pages project sites, send unknown paths back to the portfolio home.
+    // Send unknown paths back to the portfolio home.
     (function () {
-      var base = location.pathname.split('/')[1] || '';
-      var home = base ? '/' + base + '/' : '/';
-      if (location.pathname !== home) {
-        setTimeout(function () { location.replace(home); }, 1800);
+      if (location.pathname !== '/') {
+        setTimeout(function () { location.replace('/'); }, 1800);
       }
     })();
   </script>
