@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>404 — Kapil Anandh P</title>
+  <style>
+    html,body{height:100%;margin:0}
+    body{background:#07080d;color:#e9ecf5;font-family:'Space Grotesk',system-ui,sans-serif;display:flex;align-items:center;justify-content:center;text-align:center}
+    .wrap{padding:24px}
+    h1{font-size:72px;margin:0;background:linear-gradient(120deg,#a78bfa,#22d3ee);-webkit-background-clip:text;background-clip:text;color:transparent}
+    p{color:#9aa3b8}
+    a{display:inline-block;margin-top:18px;padding:12px 22px;border-radius:12px;background:linear-gradient(120deg,#8b5cf6,#22d3ee);color:#07080d;text-decoration:none;font-weight:600}
+  </style>
+  <script>
+    // On GitHub Pages project sites, send unknown paths back to the portfolio home.
+    (function () {
+      var base = location.pathname.split('/')[1] || '';
+      var home = base ? '/' + base + '/' : '/';
+      if (location.pathname !== home) {
+        setTimeout(function () { location.replace(home); }, 1800);
+      }
+    })();
+  </script>
+</head>
+<body>
+  <div class="wrap">
+    <h1>404</h1>
+    <p>This page drifted out of the model's context window.<br/>Taking you back home…</p>
+    <a href="./">Go to portfolio</a>
+  </div>
+</body>
+</html>

@@ -1,0 +1,13 @@
+# OS / editor
+.DS_Store
+Thumbs.db
+desktop.ini
+.vscode/
+
+# build / tooling helpers used during setup
+optimize_img.py
+*.log
+__pycache__/
+
+# local secrets — NEVER commit the Groq API key
+assets/js/config.local.js

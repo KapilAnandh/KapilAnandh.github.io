@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 72">
+  <rect width="120" height="72" rx="12" fill="#0b0d16"/>
+  <!-- Anthropic mark: two angled strokes forming an A -->
+  <path d="M48 24 L36 48 h5.8 l2.5-5.6 h9.4 l2.5 5.6 H62 L50 24 Z m-1.6 13.6 l2.6-6 2.6 6 Z" fill="#d97757"/>
+  <path d="M66 24 L78 48 h-5.9 L60.3 24 Z" fill="#d97757"/>
+  <text x="60" y="63" text-anchor="middle" font-family="Arial,Helvetica,sans-serif" font-size="9" font-weight="600" fill="#e9ecf5">ANTHROPIC</text>
+</svg>
