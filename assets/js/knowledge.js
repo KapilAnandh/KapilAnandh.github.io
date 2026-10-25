@@ -35,6 +35,11 @@ window.KAPPY_KB = (function () {
       reply: "Some standout projects:<br>• <strong>Sophia (OneReach v2):</strong> autonomous AI sales agent — 78 tools on the Mastra framework, durable workflows on Temporal.<br>• <strong>OneLingo:</strong> real-time translation platform he built end-to-end from scratch — <a href=\"https://onelingo.ai/\" target=\"_blank\" rel=\"noopener\">onelingo.ai</a>.<br>• <strong>Perzona:</strong> multi-tenant NL2SQL analytics on Bedrock serving 40+ tenants.<br>• <strong>Stratagraph:</strong> ~8TB RAG platform with log-quality grading.<br>• <strong>HelPiere:</strong> multi-agent concierge on Bedrock AgentCore.<br><br>Scroll to the Projects section and click any card for the full case study! 📂"
     },
     {
+      id: 'onecare',
+      keys: ['onecare', 'clinical', 'healthcare', 'hospital', 'medgemma', 'soap note', 'prescription', 'doctor', 'medical'],
+      reply: "<strong>OneCare</strong> is a healthcare AI platform Kapil works on as an AI/ML resource. 🏥<br>• <strong>OneCare V1</strong> (initial phase done): clinical decision-support, SOAP-note generation, MedGemma hosted locally, appointment &amp; prescription agents, live note-taking and autofill — plus a 10+ OCR-model comparative study.<br>• <strong>OneCare V2</strong> (in progress): new local AI infrastructure, API-key-based integrations via a hosted model server, and live note-taking."
+    },
+    {
       id: 'onelingo',
       keys: ['onelingo', 'translation', 'translate', 'captions', 'live caption'],
       reply: "<strong>OneLingo</strong> is a real-time translation platform Kapil built <strong>end-to-end from scratch</strong> — streaming live captions and translation over WebSockets with selectable STT/LLM engines, role-based access, audit logs and usage analytics (Node.js + PostgreSQL). It's live at <a href=\"https://onelingo.ai/\" target=\"_blank\" rel=\"noopener\">onelingo.ai</a> 🌐"
@@ -193,6 +198,10 @@ EXPERIENCE:
 2) AI/ML Engineer — Charky Labs Pvt. Ltd. (Apr 2025–Nov 2025). Real-time speech-to-speech (Whisper STT, F5-TTS voice cloning), sub-second latency. Optimized inference (ONNX, vLLM, Flash Attention); benchmarked 30+ OSS models. Automated AWS CI/CD, cut latency 25%.
 
 PROJECTS:
+- OneCare V1 (healthcare AI, initial phase completed): AI integration across a clinical platform — clinical decision-support, SOAP-note generation, MedGemma hosted on a local server, appointment agent and prescription agent on locally hosted models, live note-taking for doctor-patient conversations, autofill for clinical info. Researched 10+ OCR models and wrote a comparative report; researched combining medical image understanding, OCR, clinical extraction and LLM workflows.
+- OneCare V2 (healthcare AI, in progress): hosting AI models on new local infrastructure, API-key-based integrations via a locally hosted model server, live note-taking, and ongoing AI integration/deployment support.
+- DFIN (OCR support): hosted and configured a Qwen model on a local server for OCR extraction; provided local model hosting and technical support to test the OCR workflow for document/data processing.
+- Okysoft Cortex (modernization): AI/ML resource migrating a Fish Speech text-to-speech platform to Amazon SageMaker; supporting implementation, testing, troubleshooting, performance validation and cost analysis (keep this high-level, not deeply technical).
 - Sophia (OneReach v2): autonomous AI sales agent on Mastra, 78 tools across 35 capabilities, semantic tool retrieval, durable Temporal workflows; streaming chat (CopilotKit/AG-UI, SSE), multi-format doc ingestion, citation RAG; NestJS/PostgreSQL/Next.js.
 - OneLingo: real-time translation platform, built END-TO-END FROM SCRATCH; live captions + translation over WebSockets, selectable STT/LLM engines, role-based access, audit logs, analytics (Node.js/PostgreSQL). LIVE: https://onelingo.ai/
 - Blacksmith Research: fashion trend analytics with Bedrock Nova Pro vision over 8 portals; S3/Glue/Athena lake; conversational analytics agent.
@@ -201,6 +210,8 @@ PROJECTS:
 - Stratagraph Energy: AI log-quality grading (Textract, Rekognition, Bedrock Claude); ~8TB data lake with Titan embeddings in OpenSearch Serverless -> citation-backed RAG; Terraform, CI/CD, ISO 27001.
 - Perzona: multi-tenant NL2SQL analytics on Bedrock (Claude Sonnet 4.5), Lambda, CDK, DynamoDB; 40+ tenants; three-layer security (Guardrails + SELECT-only validator); CloudWatch + audit logs.
 
+HACKATHONS & EVENTS: AWS EBA Event — Perzona (AI/ML resource); AWS EBA Event — Blacksmith (AI/ML resource); DPI Event — Client Mystery Ops.
+MENTORING: Data Scraping Initiative (ongoing) — guiding and supporting junior AI/ML engineers with technical guidance for data scraping across sources, implementation approaches, troubleshooting and AI/ML requirements.
 EDUCATION: M.Tech, Data Science — Kumaraguru College of Technology (Sep 2023–Apr 2025). CGPA 8.73/10 (87.3%).
 CERTIFICATIONS: AWS Certified ML Engineer – Associate; AWS Partner – Generative AI on AWS; AWS Knowledge: AI-Driven Development Lifecycle (badge); AWS Partner: Generative AI Technical (badge); TensorFlow Developer Certificate; Claude Partner Badge (Claude Code, Anthropic); Claude with Amazon Bedrock; AI Fluency: Framework & Foundations; AI Fluency for Builders (CodePath x Anthropic); AI Capabilities and Limitations; Introduction to Agent Skills; Introduction to Subagents; Introduction to Claude Cowork; GenAI for Developers (Google Cloud); IELTS 7.5.`;
 
