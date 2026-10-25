@@ -184,6 +184,9 @@ SKILLS:
 - Cloud/MLOps: AWS (Bedrock, SageMaker, Lambda, EC2, S3, Glue, Athena, CloudWatch, CDK, Step Functions, EventBridge), GCP, Docker, Terraform, CI/CD (GitHub Actions, GitLab), Git.
 - Inference optimization: quantization, ONNX Runtime, vLLM, Flash Attention, GPU/latency optimization.
 - Governance: Responsible AI, data privacy, ISO 27001, Bedrock Guardrails.
+- IDEs & editors: Kiro, VS Code, Windsurf, Replit.
+- AI coding tools & assistants: Claude Code, Codex, ChatGPT, OpenAI, Docker.
+- Open-source models worked with: Llama, Qwen, Mistral, Gemma, DeepSeek, Phi.
 
 EXPERIENCE:
 1) Associate AI/ML Engineer — OneData Software Solutions Pvt. Ltd. (Dec 2025–Present). Fine-tuned MedGemma LLMs (LoRA/QLoRA) on 50K+ clinical records -> 94% accuracy, 80% cost reduction (on-prem). Architected end-to-end multimodal AI platform (LLM, OCR, vision, speech, RAG) serving 10+ hospitals under ISO 27001. Built multi-agent GenAI with RLHF loop; MLOps on AWS Bedrock/SageMaker/Lambda + on-prem GPU. OCR to 94% accuracy digitizing 30+ years of records; medical STT + translation. Mentored juniors.
